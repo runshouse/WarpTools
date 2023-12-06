@@ -183,7 +183,7 @@ def install_dependencies_colab(is_colab, root_dir):
     subprocess.run(['python','-m','pip','-q','install','-e','./stablediffusion'])
     progress_bar.update(2)
     pipi('ipywidgets==7.7.1')
-    pipi('transformers==4.19.1') # 4.31.0
+    pipi('transformers==4.35.2') # 4.31.0
     progress_bar.update(2)
     pipi('omegaconf')
     pipi('einops')
